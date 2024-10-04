@@ -1,0 +1,20 @@
+.scroll-container {
+    border: 1px solid #ccc;
+    max-width: 900px;
+    background-color: #e4e6e9;
+    border-radius: 15px;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+.upperBar {
+    position: sticky; /* 상단에 고정 */
+    top: 0; /* 상단으로부터의 거리 */
+    background-color: #f0f3f6; /* 배경색 설정 */
+    padding: 10px 80px; /* 상단과 하단, 좌우 패딩 */
+    z-index: 100; /* 다른 요소들 위에 표시되도록 z-index 설정 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 하단에 그림자 효과 추가 */
+    width: 100%; /* 너비를 100%로 설정 */
+    left: 0; /* 왼쪽을 기준으로 */
+    right: 0; /* 오른쪽을 기준으로 */
+}

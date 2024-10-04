@@ -1,0 +1,105 @@
+/* RegisterPage.css */
+
+.registration-form {
+  max-width: 400px;
+  margin: 5vh auto 0;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.register-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-input-select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+  background-color: #e5e7eb;
+  outline: none;
+  box-shadow:
+    0 0 0 2px transparent,
+    0 0 0 0 transparent;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  box-shadow:
+    0 0 0 2px #e5e7eb,
+    0 0 0 4px #7c3aed;
+  outline: none;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+  background-color: #e5e7eb;
+  color: #333;
+  outline: none;
+  box-shadow:
+    0 0 0 2px transparent,
+    0 0 0 0 transparent;
+}
+
+.form-group select:focus {
+  box-shadow:
+    0 0 0 2px #e5e7eb,
+    0 0 0 4px #7c3aed;
+  outline: none;
+}
+
+.password-errorMessage {
+  font-weight: normal;
+  color: #ae445a;
+  font-size: 0.9em;
+}
+
+button.btn-register {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button.btn-register:hover {
+  background-color: #3730a3;
+}
+
+.p {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
